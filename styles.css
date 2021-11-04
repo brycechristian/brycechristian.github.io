@@ -12,11 +12,16 @@ body {
 }
 .assignment img {
     width:200px;
-    padding:10px;
+    margin: 10px;
+    border: 2px solid rgb(50,90,200);
 }
 
 
 h1{
     color: darkblue;
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(50,90,200);
 }
