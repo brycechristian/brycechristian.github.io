@@ -2,24 +2,34 @@ body {
     background: lightblue;
     font-family:sans-serif;
 }
+.assignments {
+    display: flex;
+    flex-wrap:wrap;
+}
 .assignment {
-    display:flex;
+    width: 21%;
     padding: 10px;
     margin:10px;
+    padding:20px 10px;
     background: rgb(243, 243, 168);
-
+    border-radius:5px;
 
 }
 .assignment img {
     width:200px;
     margin: 10px;
     border: 2px solid rgb(50,90,200);
+    display:block;
+    margin:auto;
 }
 
 
 h1{
     color: darkblue;
     text-align: center;
+}
+h2{
+    text-align:center;
 }
 a{
     text-decoration: none;
